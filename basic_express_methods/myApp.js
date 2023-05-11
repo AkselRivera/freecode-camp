@@ -1,8 +1,8 @@
 require('dotenv').config()
 const express = require('express')
 const app = express()
-const dns = require('dns')
 const bodyParser = require('body-parser')
+const dns = require('dns')
 
 dns.setDefaultResultOrder('ipv4first')
 
